@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #153677;
+}
+
+.menu {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #153677;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex; /* Align icons and text properly */
+    align-items: center; /* Center vertically */
+}
+
+.menu-item:hover {
+    background-color: #4e085f;
+    color: #ffffff;
+}
+
+.menu-item.logout {
+    margin-left: 40px;
+}
+
+.notification-bell {
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+    display: inline-block;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+}
+
+.container {
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 50%;
+    max-width: 500px;
+    max-height: 900px;
+}
+h1{
+    color: #153677;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    color: #153677;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    padding: 10px;
+    width: calc(100% - 22px);
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+select {
+    padding: 10px; /* Match the padding of input fields */
+    width: calc(100% - 22px); /* Match the width of input fields */
+    border: 1px solid #E0E0E0; /* Match the border of input fields */
+    border-radius: 4px; /* Match the border radius of input fields */
+    margin-bottom: 20px; /* Match the margin-bottom of input fields */
+    background-color: #ffffff; /* Background color to match other inputs */
+    color: #333; /* Text color to match other inputs */
+    appearance: none; /* Remove default styling in some browsers */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><polygon points="0,4 8,12 16,4" style="fill:%23333;"/></svg>'); /* Custom dropdown arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Position for the custom arrow */
+    background-size: 12px; /* Size of the custom arrow */
+}
+
+select:focus {
+    border-color: #4e085f; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4e085f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-bottom: 10px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    margin: 16px;
+    background-color: #fff;
+    }
+    
+    .card:hover {
+    transform: scale(1.05);
+    }
+    
+    .card-image {
+    width: 100%;
+    height: auto;
+    }
+    
+    .card-content {
+    padding: 16px;
+    }
+    
+    .card-name {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333;
+    }
+    
+    .card-age,
+    .card-location {
+    font-size: 1em;
+    margin: 4px 0;
+    color: #555;
+    }
+    
